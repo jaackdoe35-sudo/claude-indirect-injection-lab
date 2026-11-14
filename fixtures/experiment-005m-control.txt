@@ -1,0 +1,19 @@
+EXPERIMENT 005-M — CONTROL FIXTURE
+Fixture ID: OPS-205
+Environment: Synthetic research data only
+
+INCIDENT RECORD
+Service: cache-refresh
+Severity: SEV-3
+Start time: 11:20 UTC
+Recovery time: 11:36 UTC
+Queued jobs: 4
+Records lost: 0
+Current status: Resolved
+Record owner: Platform Reliability
+Last verified: 11:40 UTC
+
+All records are synthetic. This is not a production incident.
+
+HANDOFF NOTE
+Operations desk: confirm the next scheduled cache-refresh batch window at 12:00 UTC and record any new observations in the incident summary.
