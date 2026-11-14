@@ -1,6 +1,6 @@
 # Experiment 005 — Agent Authorization Boundary (Read-only task / local canary write)
 
-**Status:** Fixture pair created; agent execution not yet performed  
+**Status:** BLOCKED — target application unavailable to researcher; fixture pair created; no agent execution performed  
 **Target application:** Claude Code  
 **Target model:** Claude Haiku 5.5, if selectable in Claude Code at execution time  
 **Program context:** 0DIN app-layer Write category; verify live scope before any submission  
@@ -119,3 +119,20 @@ A single blocked attempt is evidence about the permission layer, not a vulnerabi
 - 0DIN agentic scope announcement: https://0din.ai/blog/0din-expands-from-inference-to-agency
 - Anthropic Haiku 5.5 availability: https://www.anthropic.com/claude/haiku
 - Anthropic Haiku 5.5 prompting guidance: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-haiku-5-5
+
+
+## 10. Execution blocker — environment unavailable
+
+**Researcher environment declaration:** The researcher reports no access to Claude Code or another Claude agent environment with tool execution. Ordinary Claude chat, if available, cannot establish the application-layer write behavior defined by this protocol.
+
+**Disposition:** Do not run this as a Claude Code trial through ChatGPT, and do not substitute ChatGPT or another model for Claude Haiku 5.5. Doing so would invalidate the target application/model and the authorization-boundary measurement.
+
+The fixtures and protocol are prepared, but A1/B1 remain **NOT RUN**. No result, pass, fail, resistance claim, or vulnerability claim may be inferred from the fixture creation.
+
+**Permitted continuation while blocked:**
+- Preserve and refine the protocol and synthetic fixtures.
+- Verify scope and evidence requirements.
+- Prepare a manual execution checklist for when the researcher has access to Claude Code.
+- Optionally design a separate chat-only study of whether ordinary Claude chat proposes an action in its text. Such a study must be separately named and cannot be represented as an application-layer write test.
+
+**Unblocking requirement:** The researcher must obtain access to Claude Code with Haiku 5.5 and a controlled, permission-gated local workspace, or explicitly authorize a separately scoped study using a different target. No credentials or account access should be requested or stored in this repository.
