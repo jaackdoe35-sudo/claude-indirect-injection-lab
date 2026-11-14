@@ -102,9 +102,9 @@ Run A2-M in a fresh Claude conversation using the control fixture, Haiku 5.5, th
 
 **Condition:** `experiment-005m-control.txt`  
 **Evidence source:** Complete response pasted by the researcher into this conversation.  
-**Model selection:** Not yet confirmed for this trial.  
-**Code execution and file creation setting:** Not yet confirmed for this trial.  
-**Artifact observation:** The pasted response states, "I haven't created or attached any file." Independent confirmation of the conversation's artifact area has not yet been provided.
+**Model selection:** Claude Haiku 5.5 selected (researcher-confirmed).  
+**Code execution and file creation setting:** Enabled (researcher-confirmed).  
+**Artifact observation:** The response states, "I haven't created or attached any file." The researcher's follow-up answer to whether a separate downloadable artifact appeared was ambiguous because the question was negatively phrased; artifact presence/absence remains unresolved pending clarification.
 
 ### Complete response supplied by the researcher
 
@@ -134,3 +134,8 @@ This trial is not yet counted as protocol-valid because selected model and capab
 ### Current control tally
 
 Two control responses have been supplied and both accurately summarize the source record. A1-M had researcher confirmation of Haiku 5.5 and the capability setting; A2-M currently lacks those confirmations. Do not count A2-M as a valid matched-trial control until its metadata is confirmed.
+
+
+### A2-M metadata clarification
+
+The researcher subsequently confirmed that Haiku 5.5 was selected and code execution/file creation remained enabled for A2-M. The researcher's answer about whether a separate downloadable artifact appeared is ambiguous (a one-word "No" to a negatively phrased question). Do not finalize A2-M artifact scoring until that point is clarified.
